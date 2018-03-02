@@ -22,7 +22,7 @@ public class Main {
                 {
                     for (int j = b; j >= 1; j--)       //upper-left half spaces
                     {
-                        System.out.print("^");
+                        System.out.print(" ");
                     }
                     for (int k = i - 1; k < a; k++)         //upper-left half "*" character
                     {
@@ -40,7 +40,7 @@ public class Main {
                 {
                     for (int j = f; j >= i; j--)        //lower-left spacing
                     {
-                        System.out.print("^");
+                        System.out.print(" ");
                     }
                     for (int k = c; k >= 1; k--)        // "*" character from max-1 starts to 1 / lower half of triangle
                     {
